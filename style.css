@@ -1,7 +1,7 @@
 .ShrinkTheZa{
     width: 300px;
-    border: solid black;
-    background-color: yellow;
+    border: solid #000000;
+    background-color: #ffff00;
     border-radius: 10px;
 }
 
@@ -12,6 +12,11 @@
 }
 .YellowText{
     color: yellow;
+}
+.chalkText{
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
 }
 h1{
     font-family: fantasy;
@@ -26,3 +31,18 @@ body{
     background-color: red;
 }
 
+
+.boxedIn{
+    width: 25px;
+}
+
+.pizzaMenu{
+    background: url(./assets/Menu.jpg) no-repeat;
+    background-size: cover;
+    border: solid yellow 2px;
+}
+
+div#answer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

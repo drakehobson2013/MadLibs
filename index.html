@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 <body>
@@ -20,45 +21,96 @@
     <div class="FancyText YellowText">
         <p>Please fill in the fields below with their appropriate responses.</p>
     </div>
+<div>
 
-<div><input type="text" placeholder="Adjective"required></div>
+<form class="entry" action="">
 
-<div><input type="text" placeholder="Nationality"required></div>
+    <label for="Adjective1"></label>
+    <input type="text" id="Adjective1" name="Adjective1" placeholder="Adjective"required>
 
-<div><input type="text" placeholder="Person"required></div>
+    <br>
 
-<div><input type="text" placeholder="Noun"required></div>
+    <label for="Nationality"></label>
+    <input type="text" id="Nationality" name="Nationality" placeholder="Nationality"required>
 
-<div><input type="text" placeholder="Adjective"required></div>
+    <br>
 
-<div><input type="text" placeholder="Noun"required></div>
+    <label for="Person"></label>
+    <input type="text" id="Person" name="Person" placeholder="Person"required>
 
-<div><input type="text" placeholder="Adjective"required></div>
+    <br>
 
-<div><input type="text" placeholder="Adjective"required></div>
+    <label for="Noun1"></label>
+    <input type="text" id="Noun1" name="Noun1" placeholder="Noun"required>
 
-<div><input type="text" placeholder="Ploural Noun"required></div>
+    <br>
 
-<div><input type="text" placeholder="Noun"required></div>
+    <label for="Adjective2"></label>
+    <input type="text" id="Adjective2" name="Adjective2" placeholder="Adjective"required>
 
-<div><input type="text" placeholder="Number"required></div>
+    <br>
 
-<div><input type="text" placeholder="Shapes"required></div>
+    <label for="Noun2"></label>
+    <input type="text" id="Noun2" name="Noun2" placeholder="Noun"required>
 
-<div><input type="text" placeholder="Food"required></div>
+    <br>
 
-<div><input type="text" placeholder="Food"required></div>
+    <label for="Adjective3"></label>
+    <input type="text" id="Adjective3" name="Adjective3" placeholder="Adjective"required>
 
-<div><input type="text" placeholder="Number"required></div>
-<br>
-<div><input type="submit"></div>
+    <br>
+
+    <label for="Adjective4"></label>
+    <input type="text" id="Adjective4" name="Adjective4" placeholder="Adjective"required>
+
+    <br>
+
+    <label for="Ploural Noun"></label>
+    <input type="text" id="Ploural Noun" name="Ploural Noun" placeholder="Ploural Noun"required>
+
+    <br>
+
+    <label for="Number1"></label>
+    <input type="text" id="Number1" name="Number1" placeholder="Number"required>
+
+    <br>
+
+    <label for="Shapes"></label>
+    <input type="text" id="Shapes" name="Shapes" placeholder="Shapes"required>
+
+    <br>
+
+    <label for="Food1"></label>
+    <input type="text" id="Food1" name="Food1" placeholder="Food"required>
+
+    <br>
+
+    <label for="Food2"></label>
+    <input type="text" id="Food2" name="Food2" placeholder="Food"required>
+
+    <br>
+
+    <label for="Number2"></label>
+    <input type="text" id="Number2" name="Number2" placeholder="Number"required>
+
+    <br>
+
+   <button type='button' onclick="createParagraph()">Submit</button>
+
+</form>
+
+<div class="container pizzaMenu" id="answer">
+
+</div>
+
 
 <!-- Below is the story the inputs plug in to.
 
-    Pizza was invented by a (adjective) (nationality) chef named (person). To make a pizza, you need to take a lump of (noun), and make a thin, round, (adjective) (noun). THen you cover it with (adjective) sauce, (adjective) cheese, and fresh chopped (ploural noun). When it is done, cut it into (number)(shapes). Some kids like (food) pizza the best, but my favorite is the (food) pizza. If I could, I would eat pizza (number) times a day! 
+    Pizza was invented by a (adjective) (nationality) chef named (person). To make a pizza, you need to take a lump of (noun), and make a thin, round, (adjective) (noun). Then you cover it with (adjective) sauce, (adjective) cheese, and fresh chopped (ploural noun). When it is done, cut it into (number)(shapes). Some kids like (food) pizza the best, but my favorite is the (food) pizza. If I could, I would eat pizza (number) times a day! 
 
 -->
-
-
+ 
+</div>
+<script src="./app.js"></script>
 </body>
 </html>
